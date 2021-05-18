@@ -18,6 +18,9 @@ This subtrees can be stored, so when the recursion finds one of them, it skips r
 We can translate this to code by using a (key, value) data structure, where the **key** will be the _root of the subtree_, and the **value** the return _value of calculating that subtree_.
 
 ### Example
+![fibonacci](https://user-images.githubusercontent.com/30937057/118701228-17cc8e00-b7d9-11eb-87a8-23ba0a715951.png)
+
+
 In this tree, the subtree:
 ```text
  3
